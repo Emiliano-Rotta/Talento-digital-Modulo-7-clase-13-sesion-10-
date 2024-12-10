@@ -1,5 +1,3 @@
-
-
 module.exports = (sequelize, DataTypes) => {
   const Perfil = sequelize.define('Perfil', {
     direccion: DataTypes.STRING,
